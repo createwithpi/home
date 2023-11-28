@@ -1,9 +1,21 @@
-
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Amatic SC", sans-serif;
   --font-secondary: "Inter", sans-serif;
+}
+
+
+
+.color-android {
+  /* text-align: justify; */
+  background: #136a8a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #267871, #136a8a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #267871, #136a8a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 /* Colors */
@@ -21,24 +33,33 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.pbt 
-{
-  border:none;
-  padding:7px;
+.pbt {
+  border: none;
+  padding: 7px;
   width: 140px;
   border-radius: 10px;
   background-color: #ce1212;
   color: white;
 }
-.pbt2 
-{
-  border:none;
-  padding:7px;
+
+.pbt2 {
+  border: none;
+  padding: 7px;
   width: 140px;
   border-radius: 10px;
   background-color: #059652;
   color: white;
 }
+
+.pbt3 {
+  border: none;
+  padding: 7px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #267871;
+  color: white;
+}
+
 body {
   font-family: var(--font-default);
   color: var(--color-default);
@@ -722,14 +743,31 @@ section {
   font-size: 34px;
   margin-bottom: 30px;
 }
-.w1
-{
-  background-color: var(--color-primary);
+
+.w1 {
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
-.w2
-{
-  background-color: #059652;
+
+.w2 {
+
+  background: #093028;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #237A57, #093028);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #237A57, #093028);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
+
 .why-us .why-box p {
   margin-bottom: 30px;
 }
